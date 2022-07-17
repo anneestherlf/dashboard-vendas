@@ -10,7 +10,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'bar-chart-2-outline',
     link: '/pages/dashboard',
     home: true,
-    },
+    children: [
+      {
+        'title':'Gerenciador de Vendas'
+      }
+    ]
+  },
     {
       title: 'Produtos',
       icon: 'pricetags-outline',
@@ -22,6 +27,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
         icon: 'smiling-face-outline',
         link: '',
         home: true,
+        children: [
+          {
+            'title':'Cadastro de Clientes'
+          }
+        ]
         },
         {
           title: 'Fornecedores',

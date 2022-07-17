@@ -13,6 +13,14 @@
     width: calc(#{nb-theme(sidebar-width)} - #{nb-theme(header-padding)});
   }
 
+  .config{
+    margin-left: 2rem;
+  }
+
+  .config:hover{
+    cursor: pointer;
+  }
+
   nb-action {
     height: auto;
     display: flex;
