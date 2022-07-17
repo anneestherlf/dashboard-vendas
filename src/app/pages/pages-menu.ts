@@ -7,25 +7,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Vendas',
-    icon: 'layout-outline',
+    icon: 'bar-chart-2-outline',
     link: '/pages/dashboard',
     home: true,
     },
     {
       title: 'Produtos',
-      icon: 'layout-outline',
+      icon: 'pricetags-outline',
       link: '',
       home: true,
       },
       {
         title: 'Clientes',
-        icon: 'layout-outline',
+        icon: 'smiling-face-outline',
         link: '',
         home: true,
         },
         {
           title: 'Fornecedores',
-          icon: 'layout-outline',
+          icon: 'people-outline',
           link: '',
           home: true,
           }
