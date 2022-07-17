@@ -2,17 +2,17 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'DASHBOARD - gráficos e análises',
-    group: true,
-  },
-  {
     title: 'Vendas',
     icon: 'bar-chart-2-outline',
-    link: '/pages/dashboard',
+    link: '',
     home: true,
     children: [
       {
-        'title':'Gerenciador de Vendas'
+        'title':'Gerenciador',
+        link:'vendas'
+      },
+      {
+        'title':'Gráficos e análises'
       }
     ]
   },
@@ -29,7 +29,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         home: true,
         children: [
           {
-            'title':'Cadastro de Clientes'
+            'title':'Cadastro'
+          },
+          {
+            'title':'Gráficos e análises'
           }
         ]
         },

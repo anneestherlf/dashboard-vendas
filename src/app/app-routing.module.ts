@@ -46,6 +46,7 @@ export const routes: Routes = [
     ],
   },
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
+  { path: 'vendas', loadChildren: () => import('./vendas/vendas.module').then(m => m.VendasModule) },
   { path: '**', redirectTo: 'pages' },
 ];
 
