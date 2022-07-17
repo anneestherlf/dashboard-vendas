@@ -9,7 +9,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         'title':'Gerenciador',
-        link:'vendas'
+        link:''
       },
       {
         'title':'Gráficos e análises'
