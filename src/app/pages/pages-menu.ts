@@ -4,7 +4,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Vendas',
     icon: 'bar-chart-2-outline',
-    link: '',
+    link: '/pages/dashboard',
     home: true,
     children: [
       {
@@ -19,8 +19,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     {
       title: 'Produtos',
       icon: 'pricetags-outline',
-      link: '',
-      home: true,
+      link: ''
       },
       {
         title: 'Clientes',
@@ -39,8 +38,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         {
           title: 'Fornecedores',
           icon: 'people-outline',
-          link: '',
-          home: true,
+          link: ''
           }
 
 ]

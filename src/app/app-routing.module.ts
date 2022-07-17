@@ -47,6 +47,7 @@ export const routes: Routes = [
   },
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
   { path: 'vendas', loadChildren: () => import('./vendas/vendas.module').then(m => m.VendasModule) },
+  { path: 'gerenciador', loadChildren: () => import('./vendas/gerenciador/gerenciador.module').then(m => m.GerenciadorModule) },
   { path: '**', redirectTo: 'pages' },
 ];
 
