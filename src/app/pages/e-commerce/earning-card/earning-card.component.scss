@@ -1,4 +1,9 @@
 @import '../../../@theme/styles/themes';
+nb-flip-card{
+  width: 60rem;
+}
+
+
 
 @include nb-install-component() {
   nb-card {

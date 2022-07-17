@@ -1,5 +1,11 @@
 @import '../../../@theme/styles/themes';
 
+
+nb-flip-card {
+  width: 60rem;
+  margin-left:1rem;
+}
+
 @include nb-install-component() {
   .flip-icon {
     position: absolute;
