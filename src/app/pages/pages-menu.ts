@@ -13,7 +13,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         'title':'Gerenciador de Vendas',
-        link:'/pages/forms'
+        link:'/pages/tables'
       }
     ]
   },
@@ -29,10 +29,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         home: true,
         children: [
           {
-            'title':'Cadastro'
-          },
-          {
-            'title':'Gráficos e análises'
+            'title':'Cadastro de Clientes'
           }
         ]
         },
