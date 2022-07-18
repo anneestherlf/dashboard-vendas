@@ -20,16 +20,17 @@ export const MENU_ITEMS: NbMenuItem[] = [
     {
       title: 'Produtos',
       icon: 'pricetags-outline',
-      link: ''
+      link: '/pages/charts'
       },
       {
         title: 'Clientes',
         icon: 'smiling-face-outline',
-        link: '',
+        link: '/pages/tables',
         home: true,
         children: [
           {
-            'title':'Cadastro de Clientes'
+            'title':'Cadastro de Clientes',
+            link: '/pages/tables'
           }
         ]
         },

@@ -1,1 +1,55 @@
-<p>Does it work?</p>
+<style>
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+</style>
+
+<h3 style="color: #162d89;">Gerenciador de Vendas</h3>
+
+<nb-card>
+    <nb-card-body>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="inputFirstName" class="label">ID</label>
+            <input type="number" nbInput fullWidth id="inputFirstName" placeholder="ID" required>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="inputLastName" class="label">Produto</label>
+            <input type="text" nbInput fullWidth id="inputLastName" placeholder="Produto" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="inputEmail" class="label">Fornecedor</label>
+            <input type="email" nbInput fullWidth id="inputEmail" placeholder="Fornecedor" required>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="inputWebsite" class="label">Preço (R$)</label>
+            <input type="number" nbInput fullWidth id="inputWebsite" placeholder="Preço" required>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputWebsite" class="label">Estoque</label>
+              <input type="number" nbInput fullWidth id="inputWebsite" placeholder="Estoque" required>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="inputWebsite" class="label">Quantidade</label>
+              <input type="number" nbInput fullWidth id="inputWebsite" placeholder="Quantidade" required>
+            </div>
+          </div>
+      </div>
+      <button type="submit" nbButton>Inserir</button>
+    </nb-card-body>
+  </nb-card>
