@@ -33,7 +33,7 @@ export class EchartsAreaStackComponent implements AfterViewInit, OnDestroy {
           },
         },
         legend: {
-          data: ['Mail marketing', 'Affiliate advertising', 'Video ad', 'Direct interview', 'Search engine'],
+          data: ['Mail marketing', 'Publicidade afiliada', 'E-commerce', 'Página web', 'Ferramenta de pesquisa'],
           textStyle: {
             color: echarts.textColor,
           },
@@ -48,7 +48,7 @@ export class EchartsAreaStackComponent implements AfterViewInit, OnDestroy {
           {
             type: 'category',
             boundaryGap: false,
-            data: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+            data: ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'],
             axisTick: {
               alignWithLabel: true,
             },
@@ -93,28 +93,28 @@ export class EchartsAreaStackComponent implements AfterViewInit, OnDestroy {
             data: [120, 132, 101, 134, 90, 230, 210],
           },
           {
-            name: 'Affiliate advertising',
+            name: 'Publicidade afiliada',
             type: 'line',
             stack: 'Total amount',
             areaStyle: { normal: { opacity: echarts.areaOpacity } },
             data: [220, 182, 191, 234, 290, 330, 310],
           },
           {
-            name: 'Video ad',
+            name: 'E-commerce',
             type: 'line',
             stack: 'Total amount',
             areaStyle: { normal: { opacity: echarts.areaOpacity } },
             data: [150, 232, 201, 154, 190, 330, 410],
           },
           {
-            name: 'Direct interview',
+            name: 'Página web',
             type: 'line',
             stack: 'Total amount',
             areaStyle: { normal: { opacity: echarts.areaOpacity } },
             data: [320, 332, 301, 334, 390, 330, 320],
           },
           {
-            name: 'Search engine',
+            name: 'Ferramenta de pesquisa',
             type: 'line',
             stack: 'Total amount',
             label: {
