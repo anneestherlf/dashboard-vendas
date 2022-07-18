@@ -1,1 +1,8 @@
 <h3 style="color: #162d89;">Cadastro de Clientes</h3>
+
+  <nb-card>  
+    <nb-card-body>
+      <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
+      </ng2-smart-table>
+    </nb-card-body>
+  </nb-card>
