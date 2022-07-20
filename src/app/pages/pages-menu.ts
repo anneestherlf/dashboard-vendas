@@ -37,7 +37,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         {
           title: 'Fornecedores',
           icon: 'people-outline',
-          link: ''
+          link: '/pages/iot-dashboard'
           }
 
 ]

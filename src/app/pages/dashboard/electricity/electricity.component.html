@@ -1,7 +1,7 @@
 <nb-card class="cards-container">
   <nb-card size="large" class="table-card">
     <nb-card-header>
-      Electricity Consumption
+     Percentual atingido
     </nb-card-header>
 
     <nb-tabset fullWidth>
@@ -18,7 +18,7 @@
               {{ month.delta }}
             </span>
             <span class="results">
-              {{ month.kWatts }} <span class="caption">kWh</span> / {{ month.cost }} <span class="caption">USD</span>
+              {{ month.kWatts }} <span class="caption">%</span> / {{ month.cost }} <span class="caption">USD</span>
             </span>
           </nb-list-item>
         </nb-list>
@@ -29,11 +29,11 @@
   <nb-card size="large" class="chart-card">
     <nb-card-header>
       <span class="stats">
-        <span class="caption">Consumed</span>
-        <span>816 <span class="caption">kWh</span></span>
+        <span class="caption">Consumido</span>
+        <span>816 <span class="caption">%</span></span>
       </span>
       <span class="stats">
-        <span class="caption">Spent</span>
+        <span class="caption">Gasto</span>
         <span>291 <span class="caption">USD</span></span>
       </span>
 
